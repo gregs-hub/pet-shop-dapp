@@ -18,7 +18,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -50,7 +51,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"petId\",\"type\":\"uint256\"}],\"name\":\"adopt\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"adopters\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAdopters\",\"outputs\":[{\"internalType\":\"address[16]\",\"name\":\"\",\"type\":\"address[16]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"Gr\\u00e9gory Seiller\",\"kind\":\"dev\",\"methods\":{},\"title\":\"Pet-shop adoption tutorial dApp\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Adoption.sol\":\"Adoption\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Adoption.sol\":{\"keccak256\":\"0x7e191b751a0b173764ed6ba8d2fa6327e42412de95d7ca3b2896817626a3cc8f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0cc498416aee955297db7eef9d1f50dbae2de9e88c78ac2555d8b4264da3d706\",\"dweb:/ipfs/QmTqUmzH8W16YtmBiCCwLgVhrthkzoHphQna6os2DfCvge\"]}},\"version\":1}",
@@ -3499,9 +3501,17 @@
     "name": "solc",
     "version": "0.8.12+commit.f00d7308.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0xb21665060F0c0D403194e42820595012bB00991e",
+      "transactionHash": "0xea0137cea05ee5957e0f5ea8546ad91b8618f9430702a563daa3e70f4296fa16"
+    }
+  },
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-03-24T08:49:55.695Z",
+  "updatedAt": "2022-03-24T09:35:41.611Z",
+  "networkType": "ethereum",
   "devdoc": {
     "author": "Grégory Seiller",
     "kind": "dev",

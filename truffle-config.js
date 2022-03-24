@@ -17,12 +17,15 @@ module.exports = {
           `https://ropsten.infura.io/v3/${process.env.INFURA_ID}`)
       },
       network_id: 3,
+      gas: 3000000,
+      gasPrice: 50000000000, // 50 gwei
+      confirmations: 2,
     },
     kovan: {
       provider: function () {
         return new HDWalletProvider(
           `${process.env.MNEMONIC}`,
-          `https://ropsten.infura.io/v3/${process.env.INFURA_ID}`)
+          `https://kovan.infura.io/v3/${process.env.INFURA_ID}`)
       },
       network_id: 42,
     },
