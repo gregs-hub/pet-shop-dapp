@@ -10,5 +10,19 @@ module.exports = {
     develop: {
       port: 8545
     }
-  }
+  },
+  // Configure your compilers
+  compilers: {
+    solc: {
+      version: "0.8.12",
+      // docker: true,
+      // settings: { 
+      //  optimizer: {
+      //    enabled: false,
+      //    runs: 200
+      //  },
+      //  evmVersion: "byzantium"
+      // }
+    }
+  },
 };
